@@ -125,7 +125,7 @@ const totalAmount=Math.round(withVat);
 
 // Accounting 
     
-    // document.getElementById("subtotal").innerText=subTotalAmount;
+    document.getElementById("subtotal").innerText=subTotalAmount;
     document.getElementById("vat").innerText=onlyVat;
     document.getElementById("total").innerText=totalAmount;
 
