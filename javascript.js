@@ -170,4 +170,19 @@ function decrement (id_number,current_item){
         j=1;
     }
 }
+const check_hide=document.getElementById("check");
+check_hide.style.display="none";
 
+const checkOut=document.getElementById("check_out");
+checkOut.addEventListener("click",function(){
+    const fullPage=document.getElementById("Full_page");
+    fullPage.style.display="none"
+    check_hide.style.display="block";
+})
+const backIn=document.getElementById("back");
+backIn.addEventListener("click",function(){
+    const fullPage=document.getElementById("Full_page");
+    fullPage.style.display="block";
+    check_hide.style.display="none";
+
+})
